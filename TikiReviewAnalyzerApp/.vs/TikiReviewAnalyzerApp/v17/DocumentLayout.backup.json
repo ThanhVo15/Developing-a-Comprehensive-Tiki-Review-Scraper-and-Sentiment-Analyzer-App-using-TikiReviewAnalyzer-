@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|e:\\developing-a-comprehensive-tiki-review-scraper-and-sentiment-analyzer-app-using-tikireviewanalyzer-\\tikireviewanalyzerapp\\gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmHomepage.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmHomepage.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmHomepage.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmHomepage.cs",
+              "RelativeToolTip": "GUI\\Main\\frmHomepage.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:35:02.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmSubCrawlData.cs [Design]",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmSubCrawlData.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs [Design]",
+              "RelativeToolTip": "GUI\\Main\\frmSubCrawlData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:24:09.902Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHomepage.cs [Design]",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmHomepage.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmHomepage.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmHomepage.cs [Design]",
+              "RelativeToolTip": "GUI\\Main\\frmHomepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:22:00.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:35:35.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmMain.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs",
+              "RelativeToolTip": "GUI\\Main\\frmMain.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:22:22.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmMain.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs [Design]",
+              "RelativeToolTip": "GUI\\Main\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:22:21.023Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

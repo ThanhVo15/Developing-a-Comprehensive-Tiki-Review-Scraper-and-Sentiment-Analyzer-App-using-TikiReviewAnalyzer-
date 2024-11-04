@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TikiReviewAnalyzer" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=THANH-OS\MSSQLSERVER01;Initial Catalog=TikiReviewAnalyzer;Persist Security Info=True;User ID=sa;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="GUI.Properties.Settings" SettingsPropertyName="TikiReviewAnalyzerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Tiki.ProductCategory" Member="ProductCategories">
+    <Type Name="ProductCategory">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductCategoryID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductCategoryText" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductCategoryLink" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="ProductCategory_Product" Member="Products" ThisKey="ProductCategoryID" OtherKey="ProductCategoryID" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="Users.Model" Member="Models">
+    <Type Name="Model">
+      <Column Name="IDModel" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModelName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ModelDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateCreate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Account_Model" Member="Account" ThisKey="AccID" OtherKey="AccID" Type="Account" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Tiki.ProductDetail" Member="ProductDetails">
+    <Type Name="ProductDetail">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProdDescriptions" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ProdShortDescriptions" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ProdURL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Product_ProductDetail" Member="Product" ThisKey="ProductID" OtherKey="ProductID" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Tiki.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductCategoryID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProductID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductSKU" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductOriginalPrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductPrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductQuantitySold" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RatingAverage" Type="System.Decimal" DbType="Decimal(3,2) NOT NULL" CanBeNull="false" />
+      <Column Name="ReviewCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EarliestDeliveryEstimate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StandardDeliveryEstimate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UrlPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="AccID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDData" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Product_ProductDetail" Member="ProductDetails" ThisKey="ProductID" OtherKey="ProductID" Type="ProductDetail" />
+      <Association Name="Product_Review" Member="Reviews" ThisKey="ProductID" OtherKey="ProductID" Type="Review" />
+      <Association Name="Product_ReviewGPTCate" Member="ReviewGPTCates" ThisKey="ProductID" OtherKey="ProductID" Type="ReviewGPTCate" />
+      <Association Name="ProductCategory_Product" Member="ProductCategory" ThisKey="ProductCategoryID" OtherKey="ProductCategoryID" Type="ProductCategory" IsForeignKey="true" />
+      <Association Name="Account_Product" Member="Account" ThisKey="AccID" OtherKey="AccID" Type="Account" IsForeignKey="true" />
+      <Association Name="Info_Product" Member="Info" ThisKey="IDData" OtherKey="IDData" Type="Info" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Tiki.Review" Member="Reviews">
+    <Type Name="Review">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ReviewID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Created_Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CustomerID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ImagesURL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Rating" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Product_Review" Member="Product" ThisKey="ProductID" OtherKey="ProductID" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Tiki.ReviewGPT" Member="ReviewGPTs">
+    <Type Name="ReviewGPT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GPTCateID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="texts" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="ReviewGPTCate_ReviewGPT" Member="ReviewGPTCate" ThisKey="GPTCateID" OtherKey="ID" Type="ReviewGPTCate" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Tiki.ReviewGPTCate" Member="ReviewGPTCates">
+    <Type Name="ReviewGPTCate">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sub_title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="ReviewGPTCate_ReviewGPT" Member="ReviewGPTs" ThisKey="ID" OtherKey="GPTCateID" Type="ReviewGPT" />
+      <Association Name="Product_ReviewGPTCate" Member="Product" ThisKey="ProductID" OtherKey="ProductID" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Users.Account" Member="Accounts">
+    <Type Name="Account">
+      <Column Name="AccID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccFirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AccLastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AccEmail" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="AccPhoneNumber" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="AccDateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="AccUserName" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="AccPassword" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="Account_Model" Member="Models" ThisKey="AccID" OtherKey="AccID" Type="Model" />
+      <Association Name="Account_Product" Member="Products" ThisKey="AccID" OtherKey="AccID" Type="Product" />
+      <Association Name="Account_Info" Member="Infos" ThisKey="AccID" OtherKey="AccID" Type="Info" />
+    </Type>
+  </Table>
+  <Table Name="Users.Info" Member="Infos">
+    <Type Name="Info">
+      <Column Name="IDData" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DataName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DataDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateScrape" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Info_Product" Member="Products" ThisKey="IDData" OtherKey="IDData" Type="Product" />
+      <Association Name="Account_Info" Member="Account" ThisKey="AccID" OtherKey="AccID" Type="Account" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

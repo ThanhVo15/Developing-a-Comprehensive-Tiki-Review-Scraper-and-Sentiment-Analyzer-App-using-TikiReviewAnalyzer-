@@ -1,0 +1,46 @@
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\BLL.dll
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\BLL.pdb
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\DAL.dll
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\DTO.dll
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\DAL.pdb
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\bin\Debug\netstandard2.0\DTO.pdb
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.AssemblyReference.cache
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.Up2Date
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.dll
+D:\study\university\năm 4\kì 1\final project\Final_app\BLL\obj\Debug\netstandard2.0\BLL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\DTO.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\bin\Debug\netstandard2.0\DTO.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.Up2Date
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\Final_app\Final_app\BLL\obj\Debug\netstandard2.0\BLL.pdb
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\BLL.dll
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\BLL.pdb
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\DAL.dll
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\DTO.dll
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\DAL.pdb
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\bin\Debug\netstandard2.0\DTO.pdb
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.AssemblyReference.cache
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.sourcelink.json
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.csproj.Up2Date
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.dll
+E:\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\Final_app\BLL\obj\Debug\netstandard2.0\BLL.pdb
