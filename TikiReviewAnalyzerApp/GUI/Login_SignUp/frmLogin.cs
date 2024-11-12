@@ -10,14 +10,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using System.Configuration;
+using BLL;
 
 namespace GUI.Login_SignUp
 {
     public partial class frmLogin : Form
     {
+
         public frmLogin()
         {
             InitializeComponent();
+            LoadSettings();
             pictureBox1.BackColor = Color.Transparent;
             lblSubTitle.BackColor = Color.Transparent;
             lblTitle.BackColor = Color.Transparent;
@@ -31,6 +34,7 @@ namespace GUI.Login_SignUp
             chkRememberPassword.BackColor = Color.Transparent;
             radSQLMode.BackColor = Color.Transparent;
             radTrustMode.BackColor = Color.Transparent;
+            txtPassword.UseSystemPasswordChar = true;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -38,16 +42,67 @@ namespace GUI.Login_SignUp
             this.Close();
         }
 
+        private void LoadSettings()
+        {
+            if (Properties.Settings.Default.RememberMe)
+            {
+                txtSeverName.Text = Properties.Settings.Default.ServerName;
+                txtDatabase.Text = Properties.Settings.Default.DatabaseName;
+                txtUserName.Text = Properties.Settings.Default.Username;
+                txtPassword.Text = Properties.Settings.Default.Password;
+                chkRememberPassword.Checked = true;
+            }
+        }
+        private void SaveSettings()
+        {
+            if (chkRememberPassword.Checked)
+            {
+                Properties.Settings.Default.ServerName = txtSeverName.Text;
+                Properties.Settings.Default.DatabaseName = txtDatabase.Text;
+                Properties.Settings.Default.Username = txtUserName.Text;
+                Properties.Settings.Default.Password = txtPassword.Text;
+                Properties.Settings.Default.RememberMe = true;
+            }
+            else
+            {
+                Properties.Settings.Default.ServerName = string.Empty;
+                Properties.Settings.Default.DatabaseName = string.Empty;
+                Properties.Settings.Default.Username = string.Empty;
+                Properties.Settings.Default.Password = string.Empty;
+                Properties.Settings.Default.RememberMe = false;
+            }
+            Properties.Settings.Default.Save();
+        }
+
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            fmMain signUpForm = new fmMain();
+            string serverName = txtSeverName.Text;      
+            string databaseName = txtDatabase.Text;   
+            string username = txtUserName.Text;           
+            string password = txtPassword.Text;
 
-            signUpForm.FormClosed += (s, args) => this.Hide();
+            UserBLL userBLL = new UserBLL();
+            bool isLoggedIn = userBLL.Login(serverName, databaseName, username, password);
 
-            signUpForm.Show();
-            this.Hide();
+            if (isLoggedIn)
+            {
+                // Đăng nhập thành công
+                SaveSettings();
+                MessageBox.Show("Login successful!");
+                fmMain Main = new fmMain();
+                Main.FormClosed += (s, args) => this.Hide();
+
+                Main.Show();
+                this.Hide();
+            }
+            else
+            {
+                // Đăng nhập thất bại
+                MessageBox.Show("Login failed!");
+            }
         }
+
 
         private void lblCreateOne_Click(object sender, EventArgs e)
         {
@@ -60,6 +115,21 @@ namespace GUI.Login_SignUp
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblForgetPassword_Click(object sender, EventArgs e)
+        {
+            frmForgotPassword Main = new frmForgotPassword();
+
+            Main.FormClosed += (s, args) => this.Hide();
+
+            Main.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -37,9 +37,9 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUserName = new System.Windows.Forms.Label();
             this.lblPhoneNumber = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Button();
@@ -51,9 +51,17 @@
             this.DateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtRepeatword = new System.Windows.Forms.TextBox();
             this.lblRepeatPassword = new System.Windows.Forms.Label();
+            this.pictureBoxEmail = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPhoneNumber = new System.Windows.Forms.PictureBox();
+            this.pictureBoxUserName = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRepeatPass = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPhoneNumber)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserName)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRepeatPass)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSignUp
@@ -65,6 +73,7 @@
             this.btnSignUp.TabIndex = 25;
             this.btnSignUp.Text = "SignUp";
             this.btnSignUp.UseVisualStyleBackColor = true;
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // lblSubTitle
             // 
@@ -145,30 +154,31 @@
             this.lblPhoneNumber.TabIndex = 14;
             this.lblPhoneNumber.Text = "Phone Number:";
             // 
-            // textBox4
+            // txtPassword
             // 
-            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox4.Location = new System.Drawing.Point(58, 402);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(279, 20);
-            this.textBox4.TabIndex = 12;
+            this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtPassword.Location = new System.Drawing.Point(58, 402);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(279, 20);
+            this.txtPassword.TabIndex = 12;
             // 
-            // textBox3
+            // txtUsername
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox3.Location = new System.Drawing.Point(56, 353);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(279, 20);
-            this.textBox3.TabIndex = 11;
+            this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtUsername.Location = new System.Drawing.Point(56, 353);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(279, 20);
+            this.txtUsername.TabIndex = 11;
+            this.txtUsername.Leave += new System.EventHandler(this.txtUsername_Leave);
             // 
-            // textBox1
+            // txtPhoneNumber
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox1.Location = new System.Drawing.Point(56, 304);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(279, 20);
-            this.textBox1.TabIndex = 10;
+            this.txtPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtPhoneNumber.Location = new System.Drawing.Point(56, 304);
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.Size = new System.Drawing.Size(279, 20);
+            this.txtPhoneNumber.TabIndex = 10;
+            this.txtPhoneNumber.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // label1
             // 
@@ -270,6 +280,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(279, 20);
             this.txtEmail.TabIndex = 10;
+            this.txtEmail.Leave += new System.EventHandler(this.txtEmail_Leave);
             // 
             // lblEmail
             // 
@@ -281,14 +292,14 @@
             this.lblEmail.TabIndex = 14;
             this.lblEmail.Text = "Email:";
             // 
-            // textBox2
+            // txtRepeatword
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox2.Location = new System.Drawing.Point(58, 451);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(279, 20);
-            this.textBox2.TabIndex = 12;
+            this.txtRepeatword.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtRepeatword.Location = new System.Drawing.Point(58, 451);
+            this.txtRepeatword.Name = "txtRepeatword";
+            this.txtRepeatword.Size = new System.Drawing.Size(279, 20);
+            this.txtRepeatword.TabIndex = 12;
+            this.txtRepeatword.Leave += new System.EventHandler(this.txtRepeatword_Leave);
             // 
             // lblRepeatPassword
             // 
@@ -300,12 +311,52 @@
             this.lblRepeatPassword.TabIndex = 17;
             this.lblRepeatPassword.Text = "Repeat Password:";
             // 
+            // pictureBoxEmail
+            // 
+            this.pictureBoxEmail.Location = new System.Drawing.Point(342, 255);
+            this.pictureBoxEmail.Name = "pictureBoxEmail";
+            this.pictureBoxEmail.Size = new System.Drawing.Size(18, 18);
+            this.pictureBoxEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxEmail.TabIndex = 27;
+            this.pictureBoxEmail.TabStop = false;
+            // 
+            // pictureBoxPhoneNumber
+            // 
+            this.pictureBoxPhoneNumber.Location = new System.Drawing.Point(342, 304);
+            this.pictureBoxPhoneNumber.Name = "pictureBoxPhoneNumber";
+            this.pictureBoxPhoneNumber.Size = new System.Drawing.Size(18, 18);
+            this.pictureBoxPhoneNumber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxPhoneNumber.TabIndex = 28;
+            this.pictureBoxPhoneNumber.TabStop = false;
+            // 
+            // pictureBoxUserName
+            // 
+            this.pictureBoxUserName.Location = new System.Drawing.Point(342, 353);
+            this.pictureBoxUserName.Name = "pictureBoxUserName";
+            this.pictureBoxUserName.Size = new System.Drawing.Size(18, 18);
+            this.pictureBoxUserName.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxUserName.TabIndex = 29;
+            this.pictureBoxUserName.TabStop = false;
+            // 
+            // pictureBoxRepeatPass
+            // 
+            this.pictureBoxRepeatPass.Location = new System.Drawing.Point(342, 451);
+            this.pictureBoxRepeatPass.Name = "pictureBoxRepeatPass";
+            this.pictureBoxRepeatPass.Size = new System.Drawing.Size(18, 18);
+            this.pictureBoxRepeatPass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxRepeatPass.TabIndex = 30;
+            this.pictureBoxRepeatPass.TabStop = false;
+            // 
             // frmSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.ic_background;
             this.ClientSize = new System.Drawing.Size(379, 593);
+            this.Controls.Add(this.pictureBoxRepeatPass);
+            this.Controls.Add(this.pictureBoxUserName);
+            this.Controls.Add(this.pictureBoxPhoneNumber);
+            this.Controls.Add(this.pictureBoxEmail);
             this.Controls.Add(this.DateOfBirth);
             this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.lblSubTitle);
@@ -320,13 +371,13 @@
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblPhoneNumber);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtRepeatword);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -336,6 +387,10 @@
             this.Load += new System.EventHandler(this.frmSignUp_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPhoneNumber)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserName)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRepeatPass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -351,9 +406,9 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.Label lblPhoneNumber;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtPhoneNumber;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel1;
@@ -365,7 +420,11 @@
         private System.Windows.Forms.DateTimePicker DateOfBirth;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtRepeatword;
         private System.Windows.Forms.Label lblRepeatPassword;
+        private System.Windows.Forms.PictureBox pictureBoxEmail;
+        private System.Windows.Forms.PictureBox pictureBoxPhoneNumber;
+        private System.Windows.Forms.PictureBox pictureBoxUserName;
+        private System.Windows.Forms.PictureBox pictureBoxRepeatPass;
     }
 }

@@ -77,6 +77,7 @@
             this.label1.Size = new System.Drawing.Size(309, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tiki Review Analyzer App";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnClose
             // 
@@ -148,7 +149,6 @@
             this.txtDatabase.Name = "txtDatabase";
             this.txtDatabase.Size = new System.Drawing.Size(279, 20);
             this.txtDatabase.TabIndex = 2;
-            this.txtDatabase.Text = "TikiReviewAnalyzer";
             // 
             // lblServerName
             // 
@@ -165,16 +165,13 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(279, 20);
             this.txtUserName.TabIndex = 2;
-            this.txtUserName.Text = "sa";
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(349, 294);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(279, 20);
             this.txtPassword.TabIndex = 2;
-            this.txtPassword.Text = "123456";
             // 
             // lblUserName
             // 
@@ -216,6 +213,7 @@
             this.lblForgetPassword.Size = new System.Drawing.Size(108, 13);
             this.lblForgetPassword.TabIndex = 3;
             this.lblForgetPassword.Text = "Forget Password?";
+            this.lblForgetPassword.Click += new System.EventHandler(this.lblForgetPassword_Click);
             // 
             // btnLogin
             // 
