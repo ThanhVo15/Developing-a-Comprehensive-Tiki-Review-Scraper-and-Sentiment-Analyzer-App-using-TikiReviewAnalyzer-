@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|e:\\developing-a-comprehensive-tiki-review-scraper-and-sentiment-analyzer-app-using-tikireviewanalyzer-\\tikireviewanalyzerapp\\gui\\main\\frmhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBB382EE-F941-42AA-83C5-42065D9842E2}|BLL\\BLL.csproj|e:\\developing-a-comprehensive-tiki-review-scraper-and-sentiment-analyzer-app-using-tikireviewanalyzer-\\tikireviewanalyzerapp\\bll\\crawl\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBB382EE-F941-42AA-83C5-42065D9842E2}|BLL\\BLL.csproj|solutionrelative:bll\\crawl\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\reviewdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|solutionrelative:dal\\crawl\\reviewdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\reviewaidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|solutionrelative:dal\\crawl\\reviewaidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\productdetaildal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|solutionrelative:dal\\crawl\\productdetaildal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +21,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{A6FEC624-C640-4E6A-B2B4-94244386497C}|DTO\\DTO.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dto\\crawl\\reviewgptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6FEC624-C640-4E6A-B2B4-94244386497C}|DTO\\DTO.csproj|solutionrelative:dto\\crawl\\reviewgptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|e:\\developing-a-comprehensive-tiki-review-scraper-and-sentiment-analyzer-app-using-tikireviewanalyzer-\\tikireviewanalyzerapp\\gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|e:\\developing-a-comprehensive-tiki-review-scraper-and-sentiment-analyzer-app-using-tikireviewanalyzer-\\tikireviewanalyzerapp\\gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\reviewdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|solutionrelative:dal\\crawl\\reviewdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\reviewaidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|solutionrelative:dal\\crawl\\reviewaidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dal\\crawl\\productdetaildal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C240B3-037F-43ED-8DD8-CF7E9B5C6E89}|DAL\\DAL.csproj|solutionrelative:dal\\crawl\\productdetaildal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6FEC624-C640-4E6A-B2B4-94244386497C}|DTO\\DTO.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\dto\\crawl\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmsubdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmsubdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|solutionrelative:gui\\main\\frmsubcrawldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4225660-C153-4125-BDA2-DEC1F6F40D8A}|GUI\\GUI.csproj|E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\gui\\frmtest\\frmreviewgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -113,7 +125,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,32 +137,121 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmMain.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs",
+              "RelativeToolTip": "GUI\\Main\\frmMain.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAvwH4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:36:16.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmMain.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmMain.cs [Design]",
+              "RelativeToolTip": "GUI\\Main\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:36:11.081Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmHomepage.cs [Design]",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmHomepage.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmHomepage.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmHomepage.cs [Design]",
+              "RelativeToolTip": "GUI\\Main\\frmHomepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:34:53.202Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductBLL.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\BLL\\Crawl\\ProductBLL.cs",
               "RelativeDocumentMoniker": "BLL\\Crawl\\ProductBLL.cs",
               "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\BLL\\Crawl\\ProductBLL.cs",
               "RelativeToolTip": "BLL\\Crawl\\ProductBLL.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T16:12:14.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReviewDAL.cs",
-              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ReviewDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\Crawl\\ReviewDAL.cs",
-              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ReviewDAL.cs",
-              "RelativeToolTip": "DAL\\Crawl\\ReviewDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductDAL.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ProductDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Crawl\\ProductDAL.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ProductDAL.cs",
+              "RelativeToolTip": "DAL\\Crawl\\ProductDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:11:55.992Z"
+              "WhenOpened": "2024-11-10T16:10:26.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ReviewGPTCateDTO.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTCateDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\Crawl\\ReviewGPTCateDTO.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTCateDTO.cs",
+              "RelativeToolTip": "DTO\\Crawl\\ReviewGPTCateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:10:04.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReviewGPTDTO.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\Crawl\\ReviewGPTDTO.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTDTO.cs",
+              "RelativeToolTip": "DTO\\Crawl\\ReviewGPTDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:09:51.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmSubCrawlData.cs [Design]",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmSubCrawlData.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs [Design]*",
+              "RelativeToolTip": "GUI\\Main\\frmSubCrawlData.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:04:49.076Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmSubCrawlData.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs",
+              "RelativeDocumentMoniker": "GUI\\Main\\frmSubCrawlData.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs*",
+              "RelativeToolTip": "GUI\\Main\\frmSubCrawlData.cs*",
+              "ViewState": "AgIAACMCAAAAAAAAAIA4wDUCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:05:01.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ProductDetailDAL.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ProductDetailDAL.cs",
               "RelativeDocumentMoniker": "DAL\\Crawl\\ProductDetailDAL.cs",
@@ -162,43 +263,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductDAL.cs",
-              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ProductDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\Crawl\\ProductDAL.cs",
-              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ProductDAL.cs",
-              "RelativeToolTip": "DAL\\Crawl\\ProductDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ReviewDAL.cs",
+              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ReviewDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Crawl\\ReviewDAL.cs",
+              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ReviewDAL.cs",
+              "RelativeToolTip": "DAL\\Crawl\\ReviewDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:10:26.881Z"
+              "WhenOpened": "2024-11-10T16:11:55.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewGPTCateDTO.cs",
-              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTCateDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\Crawl\\ReviewGPTCateDTO.cs",
-              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTCateDTO.cs",
-              "RelativeToolTip": "DTO\\Crawl\\ReviewGPTCateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:10:04.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReviewGPTDTO.cs",
-              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\Crawl\\ReviewGPTDTO.cs",
-              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ReviewGPTDTO.cs",
-              "RelativeToolTip": "DTO\\Crawl\\ReviewGPTDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:09:51.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ProductDetailDTO.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\Crawl\\ProductDetailDTO.cs",
               "RelativeDocumentMoniker": "DTO\\Crawl\\ProductDetailDTO.cs",
@@ -210,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "frmSubUsingModel.cs [Design]",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubUsingModel.cs",
               "RelativeDocumentMoniker": "GUI\\Main\\frmSubUsingModel.cs",
@@ -221,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ReviewAIDAL.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Crawl\\ReviewAIDAL.cs",
               "RelativeDocumentMoniker": "DAL\\Crawl\\ReviewAIDAL.cs",
@@ -233,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "frmSubTrainModel.cs [Design]",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubTrainModel.cs",
               "RelativeDocumentMoniker": "GUI\\Main\\frmSubTrainModel.cs",
@@ -244,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "frmSubDatabase.cs [Design]",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubDatabase.cs",
               "RelativeDocumentMoniker": "GUI\\Main\\frmSubDatabase.cs",
@@ -255,30 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmSubCrawlData.cs",
-              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs",
-              "RelativeDocumentMoniker": "GUI\\Main\\frmSubCrawlData.cs",
-              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs",
-              "RelativeToolTip": "GUI\\Main\\frmSubCrawlData.cs",
-              "ViewState": "AgIAAGgCAAAAAAAAAAAswHcCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:05:01.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmSubCrawlData.cs [Design]",
-              "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs",
-              "RelativeDocumentMoniker": "GUI\\Main\\frmSubCrawlData.cs",
-              "ToolTip": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubCrawlData.cs [Design]",
-              "RelativeToolTip": "GUI\\Main\\frmSubCrawlData.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:04:49.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "frmReviewGPT.cs [Design]",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\frmTest\\frmReviewGPT.cs",
               "RelativeDocumentMoniker": "GUI\\frmTest\\frmReviewGPT.cs",
@@ -289,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
@@ -301,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "frmSubTrainModel.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\Main\\frmSubTrainModel.cs",
               "RelativeDocumentMoniker": "GUI\\Main\\frmSubTrainModel.cs",
@@ -313,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "StopWordsBLL.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\BLL\\Train Model\\StopWordsBLL.cs",
               "RelativeDocumentMoniker": "BLL\\Train Model\\StopWordsBLL.cs",
@@ -325,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SentimentAnalysis.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\BLL\\Train Model\\SentimentAnalysis.cs",
               "RelativeDocumentMoniker": "BLL\\Train Model\\SentimentAnalysis.cs",
@@ -337,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Preprocessing.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\BLL\\Train Model\\Preprocessing.cs",
               "RelativeDocumentMoniker": "BLL\\Train Model\\Preprocessing.cs",
@@ -349,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "CmtBLL.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\BLL\\Train Model\\CmtBLL.cs",
               "RelativeDocumentMoniker": "BLL\\Train Model\\CmtBLL.cs",
@@ -361,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "StopWordAccess.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Train Model\\StopWordAccess.cs",
               "RelativeDocumentMoniker": "DAL\\Train Model\\StopWordAccess.cs",
@@ -373,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CommentAccess.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Train Model\\CommentAccess.cs",
               "RelativeDocumentMoniker": "DAL\\Train Model\\CommentAccess.cs",
@@ -385,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "CommentData.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DTO\\TrainModel\\CommentData.cs",
               "RelativeDocumentMoniker": "DTO\\TrainModel\\CommentData.cs",
@@ -397,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "GUI",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\GUI.csproj",
               "RelativeDocumentMoniker": "GUI\\GUI.csproj",
@@ -408,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "App.config",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\GUI\\App.config",
               "RelativeDocumentMoniker": "GUI\\App.config",
@@ -416,11 +470,12 @@
               "RelativeToolTip": "GUI\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-10T13:45:00.854Z"
+              "WhenOpened": "2024-11-10T13:45:00.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "AccessDatabase.cs",
               "DocumentMoniker": "E:\\Developing-a-Comprehensive-Tiki-Review-Scraper-and-Sentiment-Analyzer-App-using-TikiReviewAnalyzer-\\TikiReviewAnalyzerApp\\DAL\\Train Model\\AccessDatabase.cs",
               "RelativeDocumentMoniker": "DAL\\Train Model\\AccessDatabase.cs",
